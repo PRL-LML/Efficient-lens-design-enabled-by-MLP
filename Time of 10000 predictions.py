@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 #Load dataset of lens A
-Lens = np.array(pd.read_excel('Ver_6inputs.xlsx', sheet_name='Sheet1', usecols='A:H'))
+Lens = np.array(pd.read_excel('Lens A dataset.xlsx', sheet_name='Sheet1', usecols='A:H'))
 
 input = 6
 output = 2
