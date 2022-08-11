@@ -16,7 +16,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load dataset of lens B 
-df = np.array(pd.read_excel('Hor_6inputs.xlsx', sheet_name='Sheet1', usecols='A:G'))
+df = np.array(pd.read_excel('Lens B dataset.xlsx', sheet_name='Sheet1', usecols='A:G'))
 
 # input means number of features, ouput means number of labels
 input = 6
